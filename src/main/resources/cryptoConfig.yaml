@@ -1,0 +1,25 @@
+# 支持的算法
+supportedAlgorithm:
+  - "API"
+  - "URL"
+  - "AES"
+  - "DES"
+  - "RSA"
+  - "BASE64"
+  - "MD5"
+  - "SHA-1"
+  - "SM2"
+  - "SM3"
+  - "SM4"
+# 加解密器
+cryptoEngines:
+  "*完整的加解密器配置":
+    "algorithm": "*算法"
+    "mode": "模式"
+    "padding": "填充"
+    "key": "密钥"
+    "keyFormat": "密钥格式"
+    "iv": "IV向量"
+    "ivFormat": "IV格式"
+    "privateKey": "私钥"
+    "publicKey": "公钥"
